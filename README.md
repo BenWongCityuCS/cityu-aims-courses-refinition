@@ -1,5 +1,30 @@
 # cityu-aims-courses-refinition
 
+Function:
+1. Automatically hide full courses.
+2. Calculate the probability of remaining vacancies and total amount for each CRN course.
+3. Sort the courses on the aims page and then display them. The sorting method is based on the course restrictions, from Monday to Sunday, from morning to night.
+4. Automatically hide courses that conflict with the personal schedule entered by the user. You can enter the week you want to take a vacation to display courses during non-vacation periods.
+For example:
+If you want to take a vacation on Monday, enter a full day of courses {CRN: '005', Day: 'M', 'Time': '06:00 - 22:00'}.
+If you want to take a break from 12:00-15:00 and 18:00-21:00 on Monday, enter the course {CRN: '003', Day: 'M', 'Time': '12:00 - 15:00 '},{CRN: '004', Day: 'M', 'Time': '18:00 - 21:00'}.
+5. When the same CRN has multiple different days and times, if one of them conflicts with your schedule, all time periods of the CRN will be automatically hidden.
+6. If the same CRN has different dates, multiple dates will be automatically linked together with the word "Or".
+7. Automatically hide courses that are not suitable for the user's language preference.
+
+When you use the following files, you agree that if there is any loss caused by problems caused by this program, the publisher of the file and the publisher of the video are not responsible.
+
+Friends who want to save time can use it. If there is a bug, please submit it.
+Please do not ask for sharing, I will be banned. Search the channel code @BenWong-vt9wk on youtube, click on the channel to see the teaching video--cityu AIMs course selection assistant v6 (Mandarin), the download address of the applet is in the information column of the video, please download the version v10.
+
+Problems found:
+31/7/2024 Problems found, in some sem a and sum courses, more than 1 crn appeared, the reason is that one crn has different dates.
+Solution: Solved, multiple courses with different dates but the same crn have been integrated into one crn. Please download the version v9.
+
+3/8/2024 Problems found, some courses have multiple languages.
+Solution:
+3/8/2024 Solved, please download v10.
+
 
 功能：
 1. 自动隐藏已经full的课程。
@@ -25,3 +50,4 @@
 3/8/2024 已发现问题，某些课程出现多个language。
 解决方案:
 3/8/2024  已解决，请下载v10。
+
